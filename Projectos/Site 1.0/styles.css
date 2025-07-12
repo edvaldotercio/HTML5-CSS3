@@ -1,0 +1,137 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 1rem 0;
+  
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #e6f2ff;
+  text-align: center;
+  padding: 3rem 1rem;
+  box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+
+.produtos {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.produto {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.adicionar-carrinho {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adicionar-carrinho:hover {
+  background-color: #005fa3;
+}
+
+.sobre {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.modal-carrinho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-carrinho.hidden {
+  display: none;
+}
+
+.carrinho-conteudo {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+}
+
+#lista-carrinho {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+

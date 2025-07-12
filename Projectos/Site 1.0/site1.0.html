@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TudoNumClick</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">TudoNumClick</h1>
+      <nav>
+        <ul>
+          <li><a href="início.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+          <li><a href="carrinho.html" id="ver-carrinho">🛒 Carrinho</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2>Bem-vindo à sua loja online, temos para si de tudo um pouco!</h2>
+    <p>Os melhores produtos, aos melhores preços.</p>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="grid-produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/150" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>Descrição breve.</p>
+        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/150" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>Descrição breve.</p>
+        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/150" alt="Produto 3">
+        <h3>Produto 3</h3>
+        <p>Descrição breve.</p>
+        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma loja online com uma vasta gama de produtos para todos os gostos. Qualidade, confiança tudo hà um preço assecível.</p>
+  </section>
+
+  <footer id="contactos">
+    <p>Contacte-nos: </p>
+    <p>&copy; 2025 TudoNumClick. Todos os direitos reservados.</p>
+  </footer>
+
+  <div id="carrinho" class="modal-carrinho hidden">
+    <div class="carrinho-conteudo">
+      <h2>Carrinho de Compras</h2>
+      <ul id="lista-carrinho"> Suas Compras</ul>
+      <button id="fechar-carrinho">Fechar</button>
+    </div>
+  </div>
+</body>
+</html>

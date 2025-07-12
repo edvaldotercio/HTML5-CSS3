@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando a função hover</title>
+    <style>  
+         body {
+          background-color: aqua;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: rgb(211, 211, 218);
+            color: black;
+            widht: 60px;
+        }
+        div:hover {
+            color: brown;
+        }
+        </style>
+</head>
+<body>
+    <h1>Exmplo do seu funcionamento</h1>
+    <p>Passe o mouse na pergunta</p>
+    <div>
+        O que é o HTML
+        <p>O HTML é uma linguagem de marcação muito usado na criação do conteúdo de um site, pois ele e das linguagens mais famosas actualmente.</p>
+    </div>
+    <p>Fim do exemplo!!</p>
+</body>
+</html>
