@@ -1,0 +1,56 @@
+@charset "UTF-8"
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    max-width: 900px;
+    min-width: 350px;
+}
+
+header {
+    background-color: rgba(0, 225, 255, 0.911);
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin-bottom: 90px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.521);
+    
+}
+
+main  {
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 90px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+    max-width: 900px;
+    min-width: 350px;
+    text-indent: 10px;
+}
+
+main a {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+main a:hover {
+    color: white;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+footer {
+    border-radius: 25px;
+    background-color: aqua;
+    color: black;
+    padding: 1px;
+    text-indent: 40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+
+}
